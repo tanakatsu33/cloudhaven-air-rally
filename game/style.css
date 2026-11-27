@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0a0f17;
+}
+
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  border: 0;
+  outline: none;
+  /* Loading fallback: horizon blue until the first frame is painted. */
+  background: linear-gradient(#2f6fc4, #cce0ee 55%, #26689a 55%);
+  touch-action: none;
+}
